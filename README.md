@@ -52,7 +52,7 @@ These installations were enough for me to launch openresty on my Mac. If case of
 6. Install Postman desktop client. This is essential to handle requests to and from server.
 
 ## Configuring for launch
-In this project, a lua script is run directly in openresty via its config file. In order to do this it is essential to identify the location of the `nginx.conf` file. It will probably be in this location : `/usr/local/etc/openresty`
+In this task, a lua script is run directly in openresty via its config file. In order to do this it is essential to identify the location of the `nginx.conf` file. It will probably be in this location : `/usr/local/etc/openresty`
 
 Open `nginx.conf` in a text editor. The basic layout of the file would be of this format:
 ```
@@ -125,6 +125,9 @@ The `nginx.conf` file gets executed when openresty server is launched, so the lu
  
 ## Postman
 Send the JSON payload in the text file as a POST request using postman. If everything works perfectly, the output of the lua script embedded in the `nginx.conf` file should return as a response.
+
+## Lua
+In this task, `content_by_lua_block{}` is used as the directive to write the lua script. For details, refer : https://openresty-reference.readthedocs.io/en/latest/Directives/#content_by_lua_file ; https://openresty-reference.readthedocs.io/en/latest/Lua_Nginx_API/
  
  
  
