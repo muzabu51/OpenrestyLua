@@ -1,0 +1,25 @@
+{
+  "id": "23",
+  "name": "john",
+  "photoUrls": [
+    "http://google.com"
+  ],
+  "status": "available",
+  "age": {
+    "value": "16"
+  },
+  "test2": "enabled",
+  "category": {
+    "id": "100",
+    "name": "cat"
+  },
+  "leg": {
+    "items": {
+      "name1": "fab",
+      "name2": "pro",
+      "name3": "pro",
+      "name4": "prat"
+    }
+  },
+  "email": "abcdef@gmail.com"
+} 
