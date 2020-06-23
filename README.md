@@ -2,7 +2,7 @@
 The main purpose of the script is to capture POST requests sent to an server (we use openresty here) and analyse them to check for duplicates or invalid elements present in the request.
 
 
-## Installing required components (for MAC).
+## Installing required components
 1. Install postman desktop client to handle GET and POST requests to server.
 2. Install Lua and Luajit using ```brew```
 ```
