@@ -1,4 +1,4 @@
-# Validating POST requests sent, using Openresty, Lua and postman
+# Configuring Openresty on MAC
 The main purpose of the script is to capture POST requests sent to an server (we use openresty here) and analyse them to check for duplicates or invalid elements present in the request.
 
 
